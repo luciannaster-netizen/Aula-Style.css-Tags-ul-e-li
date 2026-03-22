@@ -1,0 +1,47 @@
+/* Container */
+.paginacao {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Lista */
+.paginacao ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Itens */
+.paginacao ul li {
+  border-right: 1px solid #ddd;
+  display: flex;
+}
+
+/* Remove borda do último */
+.paginacao ul li:last-child {
+  border-right: none;
+}
+
+/* Links */
+.paginacao ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+/* Hover */
+.paginacao ul li a:hover {
+  background-color: red;
+  color: white;
+}
